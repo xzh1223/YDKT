@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.jssvc.xzh.rebuildclass">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BaseActivity" />
+        <activity android:name=".activity.GuideActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity"
+            android:label="注册"/>
+        <activity android:name=".activity.MainActivity"
+            android:label=""/>
+        <activity android:name=".activity.ClasstitleActivity"
+            android:label=""/>
+        <activity android:name=".activity.ClassContentActivity"
+            android:theme="@style/NoTitleFullscreen"
+            android:screenOrientation="landscape"
+            android:label=""/>
+        <activity android:name=".activity.ForumContentActivity"
+            android:label=""/>
+        <activity android:name=".activity.PostForumActivity"
+            android:label="发布帖子"/>
+        <activity android:name=".activity.MyInfoActivity"
+            android:label="个人信息"/>
+        <activity android:name=".activity.ResetPassActivity"
+            android:label="修改密码"/>
+        <activity android:name=".activity.MyClassActivity"
+            android:label="我的课程"/>
+        <activity android:name=".activity.SettingActivity"
+            android:label="设置"/>
+        <activity android:name=".activity.AboutActivity"
+            android:label="关于我们"/>
+        <activity android:name=".activity.FeedbackActivity"
+            android:label="意见反馈"/>
+        <activity android:name=".activity.HelpActivity"
+            android:label="使用指南"/>
+        <activity android:name=".activity.ExerciseContentActivity"
+            android:label="练习开始"/>
+        <activity android:name=".activity.MyForumActivity"
+            android:label="与我相关"/>
+        <activity android:name=".activity.RecoverActivity"
+            android:label="忘记密码"/>
+
+        <provider
+            android:authorities="cn.edu.jssvc.xzh.rebuildclass.fileprovider"
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+    </application>
+
+</manifest>

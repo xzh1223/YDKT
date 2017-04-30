@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/forum_user_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:src="@mipmap/icon_image" />
+
+            <TextView
+                android:id="@+id/fourum_username"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="username" />
+
+            <TextView
+                android:id="@+id/forum_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="end|bottom"
+                android:text="2017-02-10 14:14:00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/forum_title"
+                android:text="this is title!"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/forum_content"
+                android:text="this is content!this is content!this is content!this is content!this is content!this is content!this is content!this is content!"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/forum_times"
+                android:text="1人浏览过"
+                android:gravity="end"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tag">
+        <item name="project">课程</item>
+        <item name="exercise">练习</item>
+        <item name="forum">论坛</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="picture_item">
+        <item>从相册选取照片</item>
+        <item>用相机拍摄照片</item>
+    </string-array>
+
+    <!-- 课程界面指南 -->
+    <string-array name="class_item">
+        <item>如何进行课程学习？</item>
+        <item>怎么添加到我的课程？</item>
+        <item>我的课程在哪儿？</item>
+        <item>怎么取消收藏？</item>
+        <item>为什么进度条没有变化？</item>
+        <item>第二次阅读从头开始？</item>
+    </string-array>
+
+    <string-array name="class_item_ok">
+        <item>进入系统之后，默认第一个界面即课程界面，选择一门你想了解学习的课程，点击可查看课程章节列表，再选择一个你想阅读的章节，点击进去即可浏览章节内容。</item>
+        <item>点击进入你想收藏的课程章节界面，在屏幕右上方有一个收藏文件，点击即可将本课程收藏到我的课程。添加之后收藏变为已收藏，提示：收藏之后不可以在这里取消收藏哦。</item>
+        <item>我的课程在侧边栏模块，回到主界面，向右滑动屏幕，或者点击主界面左上角的菜单按钮，即可将侧边栏展开。在侧边栏上就可以找到我的课程，点击可以找到我们已收藏的课程。</item>
+        <item>取消收藏，首先要进入我的课程界面，选择你要取消收藏的课程，长按会弹出一个提示界面，点击界面上的确定按钮，即可取消收藏。</item>
+        <item>进度条没有变化？那是因为你没有收藏到我的课程哦，只有将课程收藏，添加到我的课程，才会显示进度变化。</item>
+        <item>在你将课程收藏之后，会记录你学习的进度，记录你上次阅读停留的界面，等到下次进入的时候，会直接跳转到你阅读的位置。</item>
+    </string-array>
+
+    <!-- 练习界面指南 -->
+    <string-array name="exer_item">
+        <item>如何进行练习？</item>
+        <item>练习题怎么有重复？</item>
+        <item>答案提示？</item>
+    </string-array>
+
+    <string-array name="exer_item_ok">
+        <item>点击主界面下方的练习按钮，切换到练习界面，选择你要练习的科目，点击进入，在练习介绍界面点击开始即可开始课程练习。</item>
+        <item>练习题采用的机制是从题库中随机读取出一些题目供大家使用，在系统抽取题目的时候，完全随机，有可能会读取一道题目很多次，这是很正常的现象。</item>
+        <item>在练习时，当你选择答案之后，想检测一下您的答案是否正确，可以点击检查按钮，即可判断您选择的是否是正确答案，如果是正确的提示回答正确，如果错误则回答错误。</item>
+    </string-array>
+
+    <!-- 论坛界面指南 -->
+    <string-array name="forum_item">
+        <item>如何进入论坛界面？</item>
+        <item>怎么发布帖子？</item>
+        <item>查看帖子具体内容</item>
+        <item>查看帖子评论</item>
+        <item>如何进行评论？</item>
+        <item>怎么查看我的帖子？</item>
+    </string-array>
+
+    <string-array name="forum_item_ok">
+        <item>点击主界面下方的论坛按钮，切换到论坛界面，即可浏览不同用户发送的各类帖子。</item>
+        <item>发布帖子，只需点击论坛界面上的一个红色带加号的按钮，跳转到发帖界面，输入相关信息，点击发送即可发送一条你的帖子到论坛界面。</item>
+        <item>想要查看帖子的具体内容？很简单，只要点击你要查看的帖子即可进入帖子的具体内容界面进行阅读查看。</item>
+        <item>查看帖子评论？当你进入到帖子具体内容界面的时候就能在帖子下方查看到其他用户对帖子进行评论的内容了。</item>
+        <item>对帖子进行评论，点击帖子具体内容界面上的红色带信息标号的按钮，弹出一个对话框，输入你要评论的内容，点击发送即可将评论信息显示到评论列表中。</item>
+        <item>如果你要查看自己发的帖子？请开启侧边栏，找到与我相关的一列，点击进入之后就可以看到曾经发送过的帖子。</item>
+    </string-array>
+
+    <!-- 密码指南 -->
+    <string-array name="password_item">
+        <item>忘记密码了怎么办？</item>
+        <item>修改密码</item>
+    </string-array>
+
+    <string-array name="password_item_ok">
+        <item>忘记了密码？那就找回呗，在登录页面，点击忘记密码，跳转到密码找回页面，输入你的用户名和手机号，系统就会将密码反馈给你。</item>
+        <item>打开侧边栏，找到修改密码一列，点击进入，输入相关的信心，即可更改你的密码。</item>
+    </string-array>
+
+    <!-- 登录指南 -->
+    <string-array name="login_item">
+        <item>登录有问题？</item>
+        <item>怎么注册新账号？</item>
+        <item>注册内容格式要求</item>
+    </string-array>
+
+    <string-array name="login_item_ok">
+        <item>在你登录的时候，请确保你的手机网络畅通，你已经注册过用户名和密码了，确保你输入的用户名存在，确保你输入的密码没有问题，最好不要有空格出现。如果登录失败，请根据提示信息进行更改或者找回密码。</item>
+        <item>在登录页面右下方有一个注册字样，点击进入注册界面，按照格式要求，输入用户名，密码，手机号，点击确认即可，切记，一定要按照提示要求。</item>
+        <item>注册要求：用户名不得低于2位，不得多于12位；密码格式为字母大小写以及下划线，位数不得少于6位不得多于18位；手机号请为真实手机号。</item>
+    </string-array>
+
+    <!-- 其他指南 -->
+    <string-array name="other_item">
+        <item>检查版本</item>
+        <item>有想法意见？</item>
+    </string-array>
+
+    <string-array name="other_item_ok">
+        <item>找到侧边栏的设置，点击进入设置界面，找到第一列检查版本，点击，如果提示有新版本，则点击更新，如果没有提示当前为最新版本不用更新。</item>
+        <item>有想法意见？欢迎来电，请将你的意见和建议填入到侧边栏设置界面的意见反馈中，发送给我们开发组即可，我们会在适当的时候给你回信。</item>
+    </string-array>
+
+</resources>

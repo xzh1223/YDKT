@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <!--<android.support.v4.view.ViewPager
+                    android:id="@+id/view_pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                </android.support.v4.view.ViewPager>-->
+                
+                <cn.edu.jssvc.xzh.rebuildclass.util.ViewPagerUtil
+                    android:id="@+id/slideshowView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true">
+
+                </cn.edu.jssvc.xzh.rebuildclass.util.ViewPagerUtil>
+
+                <!--<LinearLayout
+                    android:id="@+id/linear_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal"></LinearLayout>-->
+
+            </RelativeLayout>
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gridview"
+                android:numColumns="3"
+                android:horizontalSpacing="2dp"
+                android:verticalSpacing="2dp"
+                android:padding="4dp"></GridView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

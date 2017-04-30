@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/tv_class"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:gravity="center"
+            android:text="课程"
+            android:background="@drawable/bg_help"/>
+
+        <RadioButton
+            android:id="@+id/tv_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:gravity="center"
+            android:text="练习"
+            android:background="@drawable/bg_help"/>
+
+        <RadioButton
+            android:id="@+id/tv_forum"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:gravity="center"
+            android:text="论坛"
+            android:background="@drawable/bg_help"/>
+
+        <RadioButton
+            android:id="@+id/tv_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:gravity="center"
+            android:text="密码"
+            android:background="@drawable/bg_help"/>
+
+        <RadioButton
+            android:id="@+id/tv_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:gravity="center"
+            android:text="登录"
+            android:background="@drawable/bg_help"/>
+
+        <RadioButton
+            android:id="@+id/tv_update"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:gravity="center"
+            android:text="其他"
+            android:background="@drawable/bg_help"/>
+
+    </RadioGroup>
+
+</LinearLayout>

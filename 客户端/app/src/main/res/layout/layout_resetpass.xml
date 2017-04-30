@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_item"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="原密码："/>
+
+        <EditText
+            android:id="@+id/old_pass"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:hint="请输入原密码" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="新密码："/>
+
+        <EditText
+            android:id="@+id/new_pass"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:hint="请输入新密码" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="确认密码："/>
+
+        <EditText
+            android:id="@+id/rebuild_pass"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:hint="再次输入新密码" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rect_gray"
+            android:text="修\t\t改" />
+
+    </LinearLayout>
+
+</LinearLayout>
